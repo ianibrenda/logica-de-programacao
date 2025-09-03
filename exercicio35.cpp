@@ -12,6 +12,7 @@ cout << "Digite o ano de nascimento: ";
 cin >> anoNasc;
 
 idade = anoAtual - anoNasc;
+cout << "Sua idade e: " << idade << endl;
 
 if(idade >= 16)
 {
@@ -28,3 +29,4 @@ if(idade >= 16)
 
 return 0;
 }
+
