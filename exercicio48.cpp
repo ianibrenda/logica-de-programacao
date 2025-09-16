@@ -2,8 +2,9 @@
 using namespace std;
 int main (){
 
-int potencia = 1, numeroB = 0;
-float numeroA = 0;
+float potencia = 1, numeroA = 0;
+int numeroB = 0;
+
 cout << "Digite o numero: ";
 cin >> numeroA;
 cout << "Digite sua potencia: ";
@@ -12,7 +13,7 @@ cin >> numeroB;
 for(int i=1; i <= numeroB; i++){
     potencia = numeroA * potencia;
 }
-cout << "A potencia de " << numeroA << " por " << numeroB << " eh " << potencia;
+cout << "A potencia de " << numeroA << " por " << numeroB << " eh " << potencia << endl;
 
 return 0;
 }
