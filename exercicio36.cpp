@@ -15,7 +15,7 @@ if(codigo == 1){
     cout << "Vestuario." << endl;
 }else if(codigo == 7){
     cout << "Higiene pessoal." << endl;
-}else if(codigo >= 8) && (codigo <=15){
+}else if((codigo >= 8) && (codigo <=15)){
     cout << "Limpeza e utensilios domesticos." << endl;
 }else{
     cout << "Invalido." <<endl;
@@ -24,3 +24,4 @@ if(codigo == 1){
 
 }
 return 0;
+
